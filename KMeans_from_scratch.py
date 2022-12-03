@@ -48,3 +48,6 @@ for i in u_labels:
     plt.scatter(df[label == i, 0], df[label==i, 1], label = i) 
 plt.legend()
 plt.show()
+
+# Tutorial Source:
+# https://www.askpython.com/python/examples/k-means-clustering-from-scratch
