@@ -33,3 +33,5 @@ class LinearRegression():
     def predict(self, X):
         return X.dot(self.W) + self.b 
 
+# Tutorial Source
+# https://www.geeksforgeeks.org/linear-regression-implementation-from-scratch-using-python/
